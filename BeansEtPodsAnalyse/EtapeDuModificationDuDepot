@@ -1,0 +1,26 @@
+# Naviguer vers le répertoire de votre projet
+cd C:\Users\cibro\Desktop\IA\IA1\Projet1
+
+# Ajouter les fichiers modifiés
+git add .
+
+# Effectuer un commit
+git commit -m "Ajout de nouvelles fonctionnalités et corrections de bugs"
+
+# Pousser les modifications vers GitHub
+git push origin main
+
+# Effectuer un commit
+git commit -m "Initial commit"
+
+# Ajouter le dépôt distant (remplacez l'URL par la vôtre)
+git remote add origin https://github.com/votre_nom_utilisateur/BeansAndPodsAnalysis.git
+
+# Renommer la branche principale en main
+git branch -M main
+
+# Pousser le code vers le dépôt distant
+git push -u origin main
+
+# Vérifiez l'URL du dépôt
+git remote -v
